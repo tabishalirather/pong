@@ -18,10 +18,12 @@ public class Ball
     public int width_bat { get; set; }
     
     public Score score_keeper = new Score();
-    public static int min_x_dir = -15;
-    static int max_x_dir = 15;
-    int x_direction = 12;
-    int y_direction = 6;
+    public static int min_x_dir = -10;
+    static int max_x_dir = 10;
+    public static int min_y_dir = min_x_dir/2;
+    static int max_y_dir = max_x_dir/2;
+    int x_direction = 3;
+    int y_direction = 3;
 
     public Ball(int x, int y, int width, int height, Bat bat_right, Bat bat_left)
 
@@ -59,7 +61,7 @@ public class Ball
             x_ball = width / 2 - width_ball / 2;
             y_ball = height / 2 - height_ball / 2;
             x_direction = SplashKit.Rnd(min_x_dir, max_x_dir);
-            y_direction = SplashKit.Rnd(min_x_dir, max_x_dir);
+            y_direction = SplashKit.Rnd(min_y_dir, max_y_dir);
             // Optionally, reset the ball's direction or give it a default direction
             // x_direction = initial_x_direction; // Define initial_x_direction as per your game's logic
             // y_direction = initial_y_direction; // Define initial_y_direction as per your game's logic
@@ -74,7 +76,7 @@ public class Ball
             x_ball = width / 2 - width_ball / 2;
             y_ball = height / 2 - height_ball / 2;
             x_direction = SplashKit.Rnd(min_x_dir, max_x_dir);
-            y_direction = SplashKit.Rnd(min_x_dir, max_x_dir);
+            y_direction = SplashKit.Rnd(min_y_dir, max_y_dir);
             score_keeper.UpdateScore("left");   
             // score_left++;
             // Console.WriteLine($"Left player score is: {score_left}");

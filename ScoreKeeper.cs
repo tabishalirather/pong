@@ -23,7 +23,7 @@ public class Score()
     }
     public  void  DrawScore()
     {
-        Console.WriteLine("I am gettinc invoked");
+        // Console.WriteLine("I am gettinc invoked");
         SplashKit.DrawText($"Score: {score_left.ToString()}", Color.White, "arial", 50, 50, 50);
         SplashKit.DrawText($"Score: {score_right.ToString()}", Color.White, "arial", 50, 700, 50);
         

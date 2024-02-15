@@ -12,3 +12,4 @@ V:\pong\obj\Debug\net8.0\refint\pong.dll
 V:\pong\obj\Debug\net8.0\pong.pdb
 V:\pong\obj\Debug\net8.0\pong.genruntimeconfig.cache
 V:\pong\obj\Debug\net8.0\ref\pong.dll
+V:\pong\obj\Debug\net8.0\pong.sourcelink.json
