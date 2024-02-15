@@ -1,0 +1,14 @@
+V:\pong\bin\Debug\net8.0\pong.exe
+V:\pong\bin\Debug\net8.0\pong.deps.json
+V:\pong\bin\Debug\net8.0\pong.runtimeconfig.json
+V:\pong\bin\Debug\net8.0\pong.dll
+V:\pong\bin\Debug\net8.0\pong.pdb
+V:\pong\obj\Debug\net8.0\pong.GeneratedMSBuildEditorConfig.editorconfig
+V:\pong\obj\Debug\net8.0\pong.AssemblyInfoInputs.cache
+V:\pong\obj\Debug\net8.0\pong.AssemblyInfo.cs
+V:\pong\obj\Debug\net8.0\pong.csproj.CoreCompileInputs.cache
+V:\pong\obj\Debug\net8.0\pong.dll
+V:\pong\obj\Debug\net8.0\refint\pong.dll
+V:\pong\obj\Debug\net8.0\pong.pdb
+V:\pong\obj\Debug\net8.0\pong.genruntimeconfig.cache
+V:\pong\obj\Debug\net8.0\ref\pong.dll
